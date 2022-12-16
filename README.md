@@ -99,3 +99,8 @@ Replace the color hex values and font weight/size with what you need. Below #FF0
   padding-top: 10px;
 }
 ```
+### Autoplaylists / smart playlists
+
+AzuraCast currently does not have the ability to generate playlists based on tags (such as GENRE for example). There are feature requests (e.g. https://features.azuracast.com/suggestions/84750/smart-playlists) about this, but it's not guaranteed to be implemented.
+To get around this problem, you can use an advanced audio player such as foobar2000 (Windows, also runs in Wine for Linux). foobar2000 has the ability to generate Autoplaylists based on the metadata (tags) of your library. It can also be used to export a whole playlist to a folder, both by copy but also with a hardlink. This allows you to avoid duplicate data.
+
